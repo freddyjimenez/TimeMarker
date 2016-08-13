@@ -60,7 +60,7 @@ namespace TimeMarker.Client
             }
             else
             {
-                app.UseStaticFiles();
+                app.UseFileServer();
             }
         }
     }
