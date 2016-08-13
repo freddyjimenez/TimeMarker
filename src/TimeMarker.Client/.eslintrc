@@ -1,0 +1,9 @@
+{
+  "extends": [
+    "angular"
+  ],
+  "plugins": [ "angular" ],
+  "env": {
+    "browser": true
+  }
+}
