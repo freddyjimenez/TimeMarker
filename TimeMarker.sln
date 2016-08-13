@@ -12,6 +12,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 EndProject
 Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "TimeMarker.Server", "src\TimeMarker.Server\TimeMarker.Server.xproj", "{82D49421-EA87-4E08-B0BD-B635C24648CB}"
 EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "TimeMarker.Client", "src\TimeMarker.Client\TimeMarker.Client.xproj", "{286978CB-B968-491F-B301-9CBC158BDAAD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -22,11 +24,16 @@ Global
 		{82D49421-EA87-4E08-B0BD-B635C24648CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{82D49421-EA87-4E08-B0BD-B635C24648CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{82D49421-EA87-4E08-B0BD-B635C24648CB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{286978CB-B968-491F-B301-9CBC158BDAAD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{286978CB-B968-491F-B301-9CBC158BDAAD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{286978CB-B968-491F-B301-9CBC158BDAAD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{286978CB-B968-491F-B301-9CBC158BDAAD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{82D49421-EA87-4E08-B0BD-B635C24648CB} = {43612FAA-4987-4E9D-AC12-9A8F0B77D0B2}
+		{286978CB-B968-491F-B301-9CBC158BDAAD} = {43612FAA-4987-4E9D-AC12-9A8F0B77D0B2}
 	EndGlobalSection
 EndGlobal
