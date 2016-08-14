@@ -1,4 +1,5 @@
-﻿'use strict';
+/// <binding ProjectOpened='watch' />
+'use strict';
 
 var gulp = require('gulp');
 var wrench = require('wrench');
