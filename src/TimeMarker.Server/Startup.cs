@@ -59,7 +59,7 @@ namespace TimeMarker.Server
             else
             {
                 services.AddDbContext<ApplicationDbContext>(options =>
-                    options.UseSqlServer(Configuration.GetConnectionString("Data:AzureConnection:ConnectionString")));
+                    options.UseSqlServer(Configuration.GetConnectionString("AzureConnection:ConnectionString")));
             }
             services.AddIdentity<ApplicationUser, IdentityRole>()
                 .AddEntityFrameworkStores<ApplicationDbContext>()
